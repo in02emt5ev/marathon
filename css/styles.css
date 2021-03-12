@@ -5,6 +5,8 @@ body {
   line-height: 30px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   color: #533738;
+
+  background-color: #efe6e4;
 }
 
 .title {
@@ -24,6 +26,10 @@ body {
 .title--size-x {
   font-size: 50px;
   line-height: 62px;
+}
+
+.title--feature {
+  color: #ffffff;
 }
 
 .bold-text {
@@ -61,6 +67,18 @@ body {
   text-decoration: none;
 }
 
+.request {
+  background-color: #8d7370;
+}
+
 .request__subtitle {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.company-features {
+  background-color: #8d7370;
+}
+
+.team-work-wrapper {
+  background-color: #e2c4ba;
 }
