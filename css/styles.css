@@ -1,0 +1,66 @@
+html,
+body {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  color: #533738;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.title--section {
+  text-transform: uppercase;
+}
+
+.title--section-request {
+  color: #ffffff;
+}
+
+.title--size-x {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.bold-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.bold-text--feature {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  text-decoration: none;
+}
+
+.more-link {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  text-decoration: none;
+}
+
+.request__subtitle {
+  color: rgba(255, 255, 255, 0.6);
+}
