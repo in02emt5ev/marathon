@@ -59,11 +59,30 @@ body {
 }
 
 .more-link {
+  position: relative;
+
+  display: block;
+  width: 295px;
+  margin: 0 auto;
+
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
   color: var(--main-color);
   text-decoration: none;
+}
+
+.more-link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  width: 61px;
+  height: 16px;
+
+  background-image: url("../img/arrow.svg");
+  transform: translateY(-50%);
 }
 
 .btn {
@@ -221,6 +240,7 @@ body {
 
 .portfolio {
   padding-top: 60px;
+  padding-bottom: 65px;
 }
 
 .portfolio__title {
@@ -230,6 +250,9 @@ body {
 }
 
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0;
   margin-bottom: 36px;
   padding: 0;
@@ -237,18 +260,45 @@ body {
   list-style: none;
 }
 
+.project {
+  position: relative;
+
+  margin-bottom: 30px;
+}
+
+.project__link {
+  display: block;
+}
+
+.project__link:focus .project__hover,
+.project__link:hover .project__hover {
+  z-index: 1;
+}
+
+.project__image {
+  display: block;
+}
+
 .project__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  min-height: 281px;
   margin: 0;
-  padding: 85px 0;
+  padding: 85px 35px;
 
   background-color: rgba(100, 72, 69, 0.8);
 }
 
 .project__title {
-  margin: 0;
+  width: 270px;
+  margin: 0 auto;
   margin-bottom: 28px;
   padding: 0;
 
+  text-align: center;
   text-align: center;
   color: #ffffff;
 }
