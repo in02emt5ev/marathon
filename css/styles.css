@@ -1,3 +1,7 @@
+:root {
+  --main-color: #533738;
+}
+
 html,
 body {
   margin: 0;
@@ -7,7 +11,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  color: #533738;
+  color: var(--main-color);
 
   background-color: #efe6e4;
 }
@@ -50,7 +54,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #533738;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -58,7 +62,7 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  color: #533738;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -66,7 +70,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #533738;
+  color: var(--main-color);
   text-decoration: none;
 }
 
