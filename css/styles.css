@@ -378,3 +378,7 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+.container--size-s {
+  width: 1040px;
+}
