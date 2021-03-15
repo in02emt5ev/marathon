@@ -417,10 +417,16 @@ body {
   padding-bottom: 65px;
 }
 
+.reviews .container {
+  position: relative;
+}
+
 .reviews__title {
   margin: 0;
   margin-bottom: 35px;
   padding: 0;
+
+  text-align: center;
 }
 
 .carousel__list {
@@ -431,13 +437,53 @@ body {
 }
 
 .carousel__controls {
+  display: flex;
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
 
+.carousel__control {
+  position: absolute;
+
+  width: 72px;
+  height: 72px;
+
+  background-color: #cc8b86;
+  background-image: url("../img/arrow-small.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  border-radius: 50%;
+}
+
+.carousel__control--left {
+  top: 50%;
+  left: 0;
+
+  transform: translateY(-50%);
+}
+
+.carousel__control--right {
+  top: 50%;
+  right: 0;
+
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  width: 834px;
+  margin: 0 auto;
+}
+
 .review__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 407px;
   margin: 0;
   padding: 0;
 }
