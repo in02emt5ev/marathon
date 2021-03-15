@@ -233,3 +233,57 @@ body {
 
   list-style: none;
 }
+
+.reviews {
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+
+.reviews__title {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+}
+
+.carousel__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.carousel__controls {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.review__text {
+  margin: 0;
+  padding: 0;
+}
+
+.review__text p {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+}
+
+.review__author {
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.illustrations {
+  margin: 0;
+  padding: 0;
+}
+
+.illustrations__image {
+  display: block;
+}
+
+.illustrations__image:not(:last-child) {
+  margin-bottom: 20px;
+}
