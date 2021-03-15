@@ -74,14 +74,6 @@ body {
   text-decoration: none;
 }
 
-.request {
-  background-color: #8d7370;
-}
-
-.request__subtitle {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .company-features {
   background-color: #8d7370;
 }
@@ -287,3 +279,29 @@ body {
 .illustrations__image:not(:last-child) {
   margin-bottom: 20px;
 }
+
+.request {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  background-color: #8d7370;
+}
+
+.request__title {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.request__subtitle {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.request-form {
+  margin-bottom: 30px;
+}
+
