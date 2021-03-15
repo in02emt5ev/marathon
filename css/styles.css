@@ -87,11 +87,35 @@ body {
   padding-bottom: 168px;
 }
 
+.logo {
+  display: block;
+  width: 91px;
+  height: 25px;
+}
+
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-nav__logo {
+  margin-right: 90px;
+}
+
 .page-nav__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0;
+  margin-right: auto;
   padding: 0;
 
   list-style: none;
+}
+
+.page-nav__menu li:not(:last-child) {
+  margin-right: 26px;
 }
 
 .hero__lead {
