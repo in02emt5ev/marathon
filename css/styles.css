@@ -82,15 +82,19 @@ body {
   background-color: #e2c4ba;
 }
 
+.logo {
+  display: block;
+  width: 91px;
+  height: 25px;
+}
+
 .page-header {
   padding-top: 36px;
   padding-bottom: 168px;
 }
 
-.logo {
-  display: block;
-  width: 91px;
-  height: 25px;
+.page-header__nav {
+  margin-bottom: 85px;
 }
 
 .page-nav {
@@ -118,6 +122,11 @@ body {
   margin-right: 26px;
 }
 
+.hero {
+  width: 495px;
+  padding-left: 82px;
+}
+
 .hero__lead {
   margin: 0;
   margin-bottom: 12px;
@@ -125,6 +134,7 @@ body {
 }
 
 .hero__text {
+  width: 420px;
   margin: 0;
   margin-bottom: 14px;
   padding: 0;
