@@ -160,6 +160,24 @@ body {
   margin: 0;
   margin-bottom: 35px;
   padding: 0;
+
+  text-align: center;
+}
+
+.company-content {
+  margin-bottom: 20px;
+}
+
+.company-content .container {
+  display: flex;
+}
+
+.company__image {
+  margin-right: 60px;
+}
+
+.company__text {
+  width: 528px;
 }
 
 .company__text p {
@@ -178,8 +196,16 @@ body {
 }
 
 .features-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
+
+  list-style: none;
+}
+
+.feature {
+  text-align: center;
 }
 
 .feature__title {
