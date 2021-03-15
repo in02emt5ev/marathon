@@ -305,3 +305,24 @@ body {
   margin-bottom: 30px;
 }
 
+.page-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.page-footer__tel {
+  display: block;
+}
+
+.page-footer__address {
+  margin: 0;
+  padding: 0;
+
+  font-style: normal;
+}
+
+.page-footer__copy {
+  margin: 0;
+  padding: 0;
+}
+
