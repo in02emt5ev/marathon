@@ -193,3 +193,43 @@ body {
 
   color: #ffffff;
 }
+
+.team {
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+
+.team__title {
+  margin: 0;
+  margin-bottom: 37px;
+  padding: 0;
+}
+
+.team-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.member__photo {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.member__description {
+  margin: 0;
+  padding: 0;
+}
+
+.work {
+  padding-top: 15px;
+  padding-bottom: 72px;
+}
+
+.work-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
