@@ -133,6 +133,9 @@ body {
 .page-header {
   padding-top: 36px;
   padding-bottom: 168px;
+
+  background-image: url("../img/header-background.jpg");
+  background-repeat: no-repeat;
 }
 
 .page-header__nav {
