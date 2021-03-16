@@ -136,6 +136,7 @@ body {
 
   background-image: url("../img/header-background.jpg");
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .page-header__nav {
