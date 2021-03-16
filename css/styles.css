@@ -568,6 +568,8 @@ body {
 .form-field__input {
   display: block;
   width: 100%;
+  margin: 0;
+  padding: 0;
 
   font: inherit;
 
@@ -583,7 +585,7 @@ body {
 .map {
   position: absolute;
   top: -45px;
-  right: 0;
+  right: -80px;
 }
 
 .page-footer {
