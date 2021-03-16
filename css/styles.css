@@ -560,17 +560,8 @@ body {
 }
 
 .form-field {
-  position: relative;
-
   height: 35px;
   margin-bottom: 35px;
-}
-
-.form-field__label {
-  position: absolute;
-  top: 0;
-
-  color: #f6ede9;
 }
 
 .form-field__input {
@@ -581,6 +572,7 @@ body {
   padding-bottom: 7px;
 
   font: inherit;
+  color: #f6ede9;
 
   background-color: transparent;
   border: 0;

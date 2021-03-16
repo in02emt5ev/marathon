@@ -204,14 +204,14 @@
           <p class="request__subtitle">Оставьте свои контакты. Менеджер перезвонит в&nbsp;удобное вам время
             и ответит на все вопросы.</p>
           <form class="request-form" action="https://echo.htmlacademy.ru/">
-            <div class="form-field">
-              <input class="form-field__input" id="name" type="text" name="name">
-              <label class="form-field__label" for="name">Ваше имя</label>
-            </div>
-            <div class="form-field">
-              <input class="form-field__input" id="tel" type="tel" name="tel">
-              <label class="form-field__label" for="tel">Введите телефон</label>
-            </div>
+            <label class="form-field">
+              <span class="visually-hidden" for="name">Ваше имя</span>
+              <input class="form-field__input" id="name" type="text" name="name" placeholder="Ваше имя" value="Ваше имя">
+            </label>
+            <label class="form-field">
+              <span class="visually-hidden" for="tel">Введите телефон</span>
+              <input class="form-field__input" id="tel" type="tel" name="tel" placeholder="Введите телефон" value="Введите телефон">
+            </label>
             <button class="btn" type="submit">Оставить заявку</button>
           </form>
         </div>
