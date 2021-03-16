@@ -593,12 +593,19 @@ body {
   padding-bottom: 30px;
 }
 
+.page-footer .container {
+  display: flex;
+  align-items: center;
+}
+
 .page-footer__tel {
   display: block;
+  margin-right: 42px;
 }
 
 .page-footer__address {
   margin: 0;
+  margin-right: auto;
   padding: 0;
 
   font-style: normal;
