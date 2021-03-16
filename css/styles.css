@@ -518,9 +518,17 @@ body {
 
 .request {
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 183px;
 
   background-color: #8d7370;
+}
+
+.request .container {
+  position: relative;
+}
+
+.request__content {
+  width: 507px;
 }
 
 .request__title {
@@ -538,7 +546,44 @@ body {
 }
 
 .request-form {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
+}
+
+.form-field {
+  position: relative;
+
+  height: 35px;
+  margin-bottom: 30px;
+}
+
+.form-field__label {
+  position: absolute;
+  top: 0;
+
+  color: #f6ede9;
+}
+
+.form-field__input {
+  display: block;
+  width: 100%;
+
+  font: inherit;
+
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.form-field__input:focus ~ .form-field__label {
+  display: none;
+}
+
+.map {
+  position: absolute;
+  top: -45px;
+  right: 0;
 }
 
 .page-footer {

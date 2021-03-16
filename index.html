@@ -198,22 +198,26 @@
       </div>
     </section>
     <section class="request">
-      <h2 class="title title--section title--section-request request__title" id="request">Оставить заявку</h2>
-      <p class="request__subtitle">Оставьте свои контакты. Менеджер перезвонит в удобное вам время
-        и ответит на все вопросы.</p>
-      <form class="request-form" action="https://echo.htmlacademy.ru/">
-        <label class="form-field">
-          <span class="form-field__label">Ваше имя</span>
-          <input class="form-field__input" type="text" name="name">
-        </label>
-        <label class="form-field">
-          <span class="form-field__label">Введите телефон</span>
-          <input class="form-field__input" type="tel" name="tel">
-        </label>
-        <button class="btn" type="submit">Оставить заявку</button>
-      </form>
-      <div class="map">
-        <img class="map__image" src="img/map.jpg" alt="Где мы находимся" width="590" height="624">
+      <div class="container container--size-s">
+        <div class="request__content">
+          <h2 class="title title--section title--section-request request__title" id="request">Оставить заявку</h2>
+          <p class="request__subtitle">Оставьте свои контакты. Менеджер перезвонит в&nbsp;удобное вам время
+            и ответит на все вопросы.</p>
+          <form class="request-form" action="https://echo.htmlacademy.ru/">
+            <div class="form-field">
+              <input class="form-field__input" id="name" type="text" name="name">
+              <label class="form-field__label" for="name">Ваше имя</label>
+            </div>
+            <div class="form-field">
+              <input class="form-field__input" id="tel" type="tel" name="tel">
+              <label class="form-field__label" for="tel">Введите телефон</label>
+            </div>
+            <button class="btn" type="submit">Оставить заявку</button>
+          </form>
+        </div>
+        <div class="map">
+          <img class="map__image" src="img/map.jpg" alt="Где мы находимся" width="590" height="624">
+        </div>
       </div>
     </section>
   </main>
