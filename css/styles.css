@@ -69,6 +69,11 @@ body {
   text-decoration: none;
 }
 
+.nav-link--footer {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .more-link {
   position: relative;
 
@@ -131,7 +136,7 @@ body {
 }
 
 .page-header {
-  padding-top: 36px;
+  padding-top: 33px;
   padding-bottom: 168px;
 
   background-image: url("../img/header-background.jpg");
@@ -140,7 +145,7 @@ body {
 }
 
 .page-header__nav {
-  margin-bottom: 85px;
+  margin-bottom: 89px;
 }
 
 .page-nav {
@@ -150,7 +155,7 @@ body {
 }
 
 .page-nav__logo {
-  margin-right: 90px;
+  margin-right: 88px;
 }
 
 .page-nav__menu {
@@ -165,7 +170,7 @@ body {
 }
 
 .page-nav__menu li:not(:last-child) {
-  margin-right: 26px;
+  margin-right: 29px;
 }
 
 .hero {
@@ -175,31 +180,31 @@ body {
 
 .hero__lead {
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   padding: 0;
 }
 
 .hero__text {
   width: 420px;
   margin: 0;
-  margin-bottom: 14px;
+  margin-bottom: 25px;
   padding: 0;
 }
 
 .company {
-  padding-top: 60px;
+  padding-top: 65px;
 }
 
 .company__title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   padding: 0;
 
   text-align: center;
 }
 
 .company-content {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .company-content .container {
@@ -207,7 +212,7 @@ body {
 }
 
 .company__image {
-  margin-right: 60px;
+  margin-right: 65px;
 }
 
 .company__text {
@@ -216,17 +221,17 @@ body {
 
 .company__text p {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   padding: 0;
 }
 
-.company__text p:last-child {
+.company__text p:last-of-type {
   margin-bottom: 0;
 }
 
 .company-features {
-  padding-top: 85px;
-  padding-bottom: 80px;
+  padding-top: 87px;
+  padding-bottom: 81px;
 }
 
 .features-list {
@@ -244,7 +249,7 @@ body {
 
 .feature__title {
   margin: 0;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
   padding: 0;
 }
 
@@ -254,13 +259,13 @@ body {
 }
 
 .portfolio {
-  padding-top: 60px;
+  padding-top: 65px;
   padding-bottom: 65px;
 }
 
 .portfolio__title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   padding: 0;
 }
 
@@ -269,7 +274,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  margin-bottom: 36px;
+  margin-bottom: 10px;
   padding: 0;
 
   list-style: none;
@@ -326,13 +331,13 @@ body {
 }
 
 .team {
-  padding-top: 45px;
-  padding-bottom: 15px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .team__title {
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 40px;
   padding: 0;
 
   text-align: center;
@@ -353,7 +358,7 @@ body {
 
 .member__photo {
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 .member__description {
@@ -363,12 +368,12 @@ body {
 
 .work {
   padding-top: 15px;
-  padding-bottom: 72px;
+  padding-bottom: 80px;
 }
 
 .work__title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   padding: 0;
 
   text-align: center;
@@ -417,7 +422,7 @@ body {
 }
 
 .reviews {
-  padding-top: 60px;
+  padding-top: 65px;
   padding-bottom: 65px;
 }
 
@@ -427,7 +432,7 @@ body {
 
 .reviews__title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   padding: 0;
 
   text-align: center;
@@ -450,6 +455,7 @@ body {
 
 .carousel__control {
   position: absolute;
+  top: 48%;
 
   width: 72px;
   height: 72px;
@@ -463,15 +469,13 @@ body {
 }
 
 .carousel__control--left {
-  top: 50%;
-  left: 0;
+  left: 1px;
 
   transform: translateY(-50%);
 }
 
 .carousel__control--right {
-  top: 50%;
-  right: 0;
+  right: 1px;
 
   transform: translateY(-50%) rotate(180deg);
 }
@@ -486,16 +490,20 @@ body {
 .review__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 407px;
   margin: 0;
   padding: 0;
+  padding-top: 92px;
 }
 
 .review__text p {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   padding: 0;
+}
+
+.review__text p:last-of-type {
+  margin-bottom: 23px;
 }
 
 .review__author {
@@ -513,12 +521,12 @@ body {
 }
 
 .illustrations__image:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .request {
-  padding-top: 45px;
-  padding-bottom: 183px;
+  padding-top: 50px;
+  padding-bottom: 156px;
 
   background-color: #8d7370;
 }
@@ -533,13 +541,13 @@ body {
 
 .request__title {
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   padding: 0;
 }
 
 .request__subtitle {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
   padding: 0;
 
   color: rgba(255, 255, 255, 0.6);
@@ -555,7 +563,7 @@ body {
   position: relative;
 
   height: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .form-field__label {
@@ -570,6 +578,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  padding-bottom: 7px;
 
   font: inherit;
 
@@ -584,12 +593,12 @@ body {
 
 .map {
   position: absolute;
-  top: -45px;
+  top: -50px;
   right: -80px;
 }
 
 .page-footer {
-  padding-top: 30px;
+  padding-top: 33px;
   padding-bottom: 30px;
 }
 
